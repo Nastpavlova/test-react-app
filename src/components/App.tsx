@@ -1,10 +1,10 @@
 import React from 'react';
+import { MainComponent } from './MainComponent';
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   return (
-    <div className="app">
-      <h1>React TypeScript App with Redux Toolkit</h1>
-      <p>Начните разработку вашего приложения!</p>
-    </div>
+    <MainComponent text='Сочи'/>
   );
 };
+
+export default App;
